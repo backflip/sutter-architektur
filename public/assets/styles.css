@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "Lato";
+  font-weight: 300;
+  src: local(""), url("fonts/lato-v17-latin-300.woff2") format("woff2"),
+    url("fonts/lato-v17-latin-300.woff") format("woff");
+}
+@font-face {
+  font-family: "Lato";
+  font-weight: 700;
+  src: local(""), url("fonts/lato-v17-latin-700.woff2") format("woff2"),
+    url("fonts/lato-v17-latin-700.woff") format("woff");
+}
+
+body {
+  font-family: Lato, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
+  margin: 0;
+  font-size: 125%;
+}
+
+main {
+  padding: 1em;
+}
+
+h1 {
+  font-size: 1em;
+}
+
+a {
+  color: inherit;
+}
+
+@media (min-width: 64em) {
+  body {
+    font-size: 150%;
+  }
+}
