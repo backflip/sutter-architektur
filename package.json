@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Simple landing page displaying content from Contentful",
   "scripts": {
-    "dev": "npx vercel dev",
     "deploy": "npx vercel --prod",
     "lint": "prettier --write .",
     "test": "echo \"Error: no test specified\" && exit 1"

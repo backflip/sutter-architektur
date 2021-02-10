@@ -14,4 +14,4 @@ Relevant environment variables:
 
 ## Development
 
-`npm run dev`
+`npx vercel dev`
